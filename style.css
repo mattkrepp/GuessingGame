@@ -1,0 +1,103 @@
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+body {
+  background-image: url('binary.jpg');
+}
+
+h1 {
+  text-shadow:
+		-2px -2px 0 #fff,
+		2px -2px 0 #fff,
+		-2px 2px 0 #fff,
+		2px 2px 0 #fff;
+}
+
+h2 {
+  text-shadow:
+		-2px -2px 0 #fff,
+		2px -2px 0 #fff,
+		-2px 2px 0 #fff,
+		2px 2px 0 #fff;
+}
+
+#app {
+  width: 100%;
+  margin: 50px auto;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+.guess {
+  display: inline;
+  font-size: 48px;
+  border: 2px solid black;
+  padding: 0 25px;
+  border-radius: 10%;
+  background-color: white;
+  box-shadow: 2px 2px;
+}
+#input-parent {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: auto;
+  border-radius: 100%;
+}
+
+#player-input {
+  margin-bottom: 15px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  font-size: 60px;
+  text-align: center;
+}
+
+#submit {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  font-size: 25px;
+  top: 130px;
+  left: 130px;
+}
+
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px red;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+#fullstack {
+  width: 300px;
+  height: auto;
+}
+
+#grace-hopper {
+  width: 300px;
+  height: auto;
+}
+
+#project-by {
+  margin-top: 30px;
+}
